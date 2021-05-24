@@ -27,7 +27,7 @@ This repository contains data files for an Apache Spark project that was run on 
 
 ## Steps To Reproduce
 1. Create an AWS EMR cluster with access to Jupyter Hub and Spark. These options are visible after selecting advanced setup.
-2. SSH into the master node.
+2. SSH into the master node. Security group of master node might need to be modified to allow SSH access.
 3. Install the necessary libraries using pip.
 4. Create a SSH tunnel to the master node using the links provided.
 5. Store the CSV files in AWS S3.
